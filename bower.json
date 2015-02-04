@@ -1,0 +1,22 @@
+{
+  "name": "ebd-js-utils",
+  "version": "1.0.0",
+  "homepage": "https://github.com/engbmsdev/js-utils",
+  "authors": [
+    "engbmsdev <engbmsdev@users.noreply.github.com>"
+  ],
+  "description": "Simple JS library",
+  "main": "js-utils.js",
+  "keywords": [
+    "javascript",
+    "utils"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
