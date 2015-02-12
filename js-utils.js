@@ -35,3 +35,7 @@ function isEmpty(value){
 function isNotEmpty(value){
     return (isDef(value) && value.length>0);
 }
+
+function isPositiveInt(value){
+    return (!isNaN(parseFloat(value)) &&  isFinite(value) && parseInt(value) > 0);
+}
