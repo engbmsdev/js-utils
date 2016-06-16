@@ -36,6 +36,10 @@ function isNotEmpty(value){
     return (isDef(value) && value.length>0);
 }
 
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 function isPositiveInt(value){
     return (!isNaN(parseFloat(value)) &&  isFinite(value) && parseInt(value) > 0);
 }
