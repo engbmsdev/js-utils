@@ -1,5 +1,5 @@
 /*!
- * js-utils v1.0.0
+ * js-utils v1.0.3
  * https://github.com/engbmsdev/js-utils
  *
  * Date: 2015-03-04
@@ -21,7 +21,7 @@ function isTextInput(node) {
 }
 
 function isDef(value){
-    return (typeof value != "undefined" && value!=null)
+    return (typeof value != "undefined" && value != null)
 }
 
 function isNotDef(value){
@@ -33,7 +33,7 @@ function isEmpty(value){
 }
 
 function isNotEmpty(value){
-    return (isDef(value) && value.length>0);
+    return (isDef(value) && ""+value.length>0);
 }
 
 function getRandomInt(min, max) {
